@@ -8,7 +8,7 @@ class CashRegister
     @cart = []
   end
   
-  def add_item(name, price, quan
+  def add_item(name, price, quantity = 1)
     self.total += amount * quantity
     quantity.times do
       cart << 
