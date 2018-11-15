@@ -42,6 +42,7 @@ class CashRegister
     @total = self.total - self.last_tranasction
   end
 end
+
  
  
  
@@ -53,4 +54,4 @@ end
   
   
   
-end
+
