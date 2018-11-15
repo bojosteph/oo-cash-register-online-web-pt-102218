@@ -16,7 +16,7 @@ class CashRegister
     item_hash[:quantity] = quantity
     
     @cart << item_hash
-    @ast_tranasction = @total += price * quantity
+    @last_tranasction = 
   end
   
   def apply_discount
