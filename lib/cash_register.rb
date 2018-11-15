@@ -31,7 +31,7 @@ class CashRegister
     item_array = []
     @cart.each do |item_name|
       for quantity in 1..item_hash[:quantity]
-      item_array << item_info[:name]
+      item_array << item_hash[:name]
     end
   end
   item_array
