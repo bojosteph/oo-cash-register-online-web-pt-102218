@@ -39,7 +39,7 @@ class CashRegister
   end 
       
  def void_last_transaction
-   total = @total - add_item([item_hash[:price])
+   total = @total - add_item[item_hash][:price]
  end
  
  end
