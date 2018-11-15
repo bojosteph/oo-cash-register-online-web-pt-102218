@@ -16,7 +16,7 @@ class CashRegister
     item_hash[:quantity] = quantity
     
     @cart << item_hash
-    @last_tranasction = 
+    @last_tranasction = @total += price * quantity
   end
   
   def apply_discount
@@ -39,7 +39,7 @@ class CashRegister
   end 
       
   def void_last_transaction
-    @total = self.total - self.last_tranasction
+    @total = @total - @last_tranasction
   end
 end
 
