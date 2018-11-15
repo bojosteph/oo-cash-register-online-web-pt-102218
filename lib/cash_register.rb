@@ -4,11 +4,12 @@ class CashRegister
   
   def initialize
     @total = 0
-    @discount =  discount
+    @discount = discount
   end
   
   def add_item(item, price)
-    
+
+end
     
   
   
