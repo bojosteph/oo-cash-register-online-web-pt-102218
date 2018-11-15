@@ -7,7 +7,8 @@ class CashRegister
     @discount = @total / 20.0
   end
   
-  def add_item
+  def add_item(item, price)
+    
   
   
   
