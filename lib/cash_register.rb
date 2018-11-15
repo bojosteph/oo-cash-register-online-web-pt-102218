@@ -32,7 +32,7 @@ class CashRegister
     @cart.each do | item_info |
       #test expects product name * quantity...
       for qty in 1..item_info[:quantity] 
-        item_names << item_info[:name]
+        item_names << item_info[:item]
       end 
     end 
     item_names
