@@ -26,6 +26,16 @@ class CashRegister
     @total -= @total * @discount / 100
     return "After the discount, the total comes to $#{@total}."
   end
+  
+  def items
+    item_array = []
+    @cart.each do |item_name|
+      for quantity in 1..item_hash[:quantity]
+      item_array << item_info[:name]
+    end
+  end
+  item_array
+end
       
     
   
