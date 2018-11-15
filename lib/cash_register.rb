@@ -41,6 +41,8 @@ class CashRegister
  def void_last_transaction
    total = @total - add_item([item_hash[:price])
  end
+ total
+ end
     
     
   
