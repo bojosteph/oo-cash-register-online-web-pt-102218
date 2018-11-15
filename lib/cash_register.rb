@@ -4,7 +4,7 @@ class CashRegister
   
   def initialize
     @total = 0
-    @discount
+    @discount = total / 20
   end
   
   def add_item(item, price)
