@@ -42,7 +42,7 @@ class CashRegister
    total = @total - add_item[item_hash][:price]
  end
  
- end
+ 
     
     
   
